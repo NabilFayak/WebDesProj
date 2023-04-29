@@ -29,3 +29,7 @@ footer p{
     display: inline-block;
     vertical-align: middle;
 }
+.card-img-custom {
+    object-fit: cover;
+    height: 220px;
+}
