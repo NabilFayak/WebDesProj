@@ -25,9 +25,13 @@
 </head>
 <body>
 <div>
-<canvas width="600" height="600" id="game"></canvas>
+<canvas id="game"></canvas>
 </div>
 <script>
+var w = window.innerWidth;
+var h = window.innerHeight;
+document.getElementById('game').setAttribute('width', w/1.5)
+document.getElementById('game').setAttribute('height', h/1.5)
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
 
