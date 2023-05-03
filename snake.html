@@ -16,11 +16,14 @@
   }
   canvas {
     border: 1px solid white;
+    overflow: hidden;
   }
   </style>
 </head>
 <body>
+<div>
 <canvas width="400" height="400" id="game"></canvas>
+</div>
 <script>
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
