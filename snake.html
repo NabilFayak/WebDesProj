@@ -120,8 +120,8 @@ function loop() {
       snake.maxCells++;
 
       // canvas is 400x400 which is 25x25 grids 
-      apple.x = getRandomInt(0, 30) * grid;
-      apple.y = getRandomInt(0, 30) * grid;
+      apple.x = getRandomInt(0, 20) * grid;
+      apple.y = getRandomInt(0, 20) * grid;
     }
 
     if (snake.maxCells === 11) {
@@ -140,8 +140,8 @@ function loop() {
         snake.dx = grid;
         snake.dy = 0;
 
-        apple.x = getRandomInt(0, 30) * grid;
-        apple.y = getRandomInt(0, 30) * grid;
+        apple.x = getRandomInt(0, 20) * grid;
+        apple.y = getRandomInt(0, 20) * grid;
       }
     }
   });
