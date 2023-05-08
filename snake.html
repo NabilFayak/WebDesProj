@@ -124,8 +124,8 @@ function loop() {
       apple.y = getRandomInt(0, 30) * grid;
     }
 
-    if (snake.maxCells === 5) {
-        if(!alert("Great Job! Enter 10percentoff at checkout for a discount on your next order.")) window.location.href = "index.html";
+    if (snake.maxCells === 11) {
+        window.location.href = "snakeWin.html";
     }
 
     // check collision with all cells after this one (modified bubble sort)
